@@ -1,0 +1,35 @@
+#passos do desafio
+
+Foi efetuada instalação do navegador Mozilla Firefox
+
+Sobre o navegador foi adicionada a extensão Metamask
+
+Foi efetuada a instalação da ferramenta Ganache para geração das contas a serem utilizadas
+
+Foi utilizada a IDE Remix para construção do código na linguagem Solidity conforme a sugestão para execução do desafio
+
+Para compilação do código fornecido foi utilizada a versão 0.8.26 e a versão constantinople para a EVM
+
+Após a compilação e o deploy efetuados com sucesso constatou-se a geração do contrato com o id : 0x1898607FA6bd78f2C5b963B835E793Cbd1db5a2B
+
+As operações surtiram o efeito esperado em conformidade com o apresentado na aula preparatória para execução do desafio
+
+As evidencias encontram-se nos arquivos anexados:
+  -arquivo contendo o fonte do contrato utilizado na liguagem Solidity 
+  -log gerado pelo terminal do Remix (registro da sequencia de passos executados)
+
+Seguem os dados de conta e contrato utilizados no desafio:
+nr do contrato criado : 0x1898607FA6bd78f2C5b963B835E793Cbd1db5a2B
+addr1 : 0x5701A8E4019a36e4FfF3823bFdd6a085EFfF83F9 (conta recebedora dos tokens no transfer)
+addr2 : 0x75d1Dc70D8599C74c82f97C1e9D92687eCe5bd5F (conta recebedora dos tokens no deploy)
+addr3 : 0x43a1dD0624183d74b8185d0EDD2438b865943446 (conta recebedora dos tokens no transferfrom)
+
+Seguem os saldos da criptomoeda DIOCHLG utilizada após os testes:
+totalSup: 10000000000000000000
+bal1	:      50000000000000000
+bal2	:    9947000000000000000
+bal3	:       3000000000000000
+allow2-1:    97000000000000000
+
+
+  

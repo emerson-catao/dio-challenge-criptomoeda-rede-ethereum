@@ -1,0 +1,323 @@
+LOG Remix - desafio - criação criptomoeda na rede Ethereum
+
+[block:22 txIndex:-]
+from: 0x75d...5bd5f
+to: DIOcoin.(constructor)
+value: 0 wei
+data: 0x608...a0033
+logs: 0
+hash: 0x999...f46f6
+
+call to DIOcoin.balanceof
+
+call
+[call]
+from: 0x5701A8E4019a36e4FfF3823bFdd6a085EFfF83F9
+to: DIOcoin.balanceof(address)
+data: 0x3d6...f83f9
+from	0x5701A8E4019a36e4FfF3823bFdd6a085EFfF83F9
+to	DIOcoin.balanceof(address) 0x1898607FA6bd78f2C5b963B835E793Cbd1db5a2B
+input	0x3d6...f83f9
+output	00000000000000000000000000000000
+decoded input	{
+	"address tokenOwner": "0x5701A8E4019a36e4FfF3823bFdd6a085EFfF83F9"
+}
+decoded output	{
+	"0": "uint256: 0"
+}
+logs	[]
+raw logs	[]
+
+call to DIOcoin.balanceof
+
+call
+[call]
+from: 0x5701A8E4019a36e4FfF3823bFdd6a085EFfF83F9
+to: DIOcoin.balanceof(address)
+data: 0x3d6...5bd5f
+from	0x5701A8E4019a36e4FfF3823bFdd6a085EFfF83F9
+to	DIOcoin.balanceof(address) 0x1898607FA6bd78f2C5b963B835E793Cbd1db5a2B
+input	0x3d6...5bd5f
+output	00000000000000000000000013819935413723200
+decoded input	{
+	"address tokenOwner": "0x75d1Dc70D8599C74c82f97C1e9D92687eCe5bd5F"
+}
+decoded output	{
+	"0": "uint256: 10000000000000000000"
+}
+logs	[]
+raw logs	[]
+
+call to DIOcoin.balanceof
+
+call
+[call]
+from: 0x5701A8E4019a36e4FfF3823bFdd6a085EFfF83F9
+to: DIOcoin.balanceof(address)
+data: 0x3d6...43446
+from	0x5701A8E4019a36e4FfF3823bFdd6a085EFfF83F9
+to	DIOcoin.balanceof(address) 0x1898607FA6bd78f2C5b963B835E793Cbd1db5a2B
+input	0x3d6...43446
+output	00000000000000000000000000000000
+decoded input	{
+	"address tokenOwner": "0x43a1dD0624183d74b8185d0EDD2438b865943446"
+}
+decoded output	{
+	"0": "uint256: 0"
+}
+logs	[]
+raw logs	[]
+
+transact to DIOcoin.transfer pending ... 
+
+[block:23 txIndex:-]
+from: 0x75d...5bd5f
+to: DIOcoin.transfer(address,uint256) 0x189...b5a2b
+value: 0 wei
+data: 0xa90...50000
+logs: 1
+hash: 0x711...fa891
+status	0x1 Transaction mined and execution succeed
+transaction hash	0xdf9fd6ce969a14b280d1a74a78bd3e762913ea03ca92fc1270ee526f989a2b40
+block hash	0x7111d39d1840043fdb1e6ee5087e2a745be02a785a8c19ea1785799455cfa891
+block number	23
+from	0x75d1dc70d8599c74c82f97c1e9d92687ece5bd5f
+to	DIOcoin.transfer(address,uint256) 0x1898607fa6bd78f2c5b963b835e793cbd1db5a2b
+gas	3000000 gas
+transaction cost	52545 gas 
+input	0xa90...50000
+decoded input	{
+	"address receiver": "0x5701A8E4019a36e4FfF3823bFdd6a085EFfF83F9",
+	"uint256 numTokens": "50000000000000000"
+}
+decoded output	 - 
+logs	[
+	{
+		"from": "0x1898607fa6bd78f2c5b963b835e793cbd1db5a2b",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x75d1Dc70D8599C74c82f97C1e9D92687eCe5bd5F",
+			"1": "0x5701A8E4019a36e4FfF3823bFdd6a085EFfF83F9",
+			"2": "50000000000000000",
+			"from": "0x75d1Dc70D8599C74c82f97C1e9D92687eCe5bd5F",
+			"to": "0x5701A8E4019a36e4FfF3823bFdd6a085EFfF83F9",
+			"value": "50000000000000000"
+		}
+	}
+]
+raw logs	[
+  {
+    "address": "0x1898607fa6bd78f2c5b963b835e793cbd1db5a2b",
+    "blockHash": "0x7111d39d1840043fdb1e6ee5087e2a745be02a785a8c19ea1785799455cfa891",
+    "blockNumber": "0x17",
+    "data": "0x00000000000000000000000000000000000000000000000000b1a2bc2ec50000",
+    "logIndex": "0x0",
+    "removed": false,
+    "topics": [
+      "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+      "0x00000000000000000000000075d1dc70d8599c74c82f97c1e9d92687ece5bd5f",
+      "0x0000000000000000000000005701a8e4019a36e4fff3823bfdd6a085efff83f9"
+    ],
+    "transactionHash": "0xdf9fd6ce969a14b280d1a74a78bd3e762913ea03ca92fc1270ee526f989a2b40",
+    "transactionIndex": "0x0"
+  }
+]
+
+transact to DIOcoin.approve pending ... 
+
+[block:24 txIndex:-]
+from: 0x75d...5bd5f
+to: DIOcoin.approve(address,uint256) 0x189...b5a2b
+value: 0 wei
+data: 0x095...a0000
+logs: 1
+hash: 0x10c...716b7
+status	0x1 Transaction mined and execution succeed
+transaction hash	0xb6766cc96ac146b3250e9e3d17bd57530eeffb69820ca049dd6cecd0e1733c26
+block hash	0x10cb2654dfd07e55270f3d6a4ff56bbf39fd80189839d4fc5f1104f5aa0716b7
+block number	24
+from	0x75d1dc70d8599c74c82f97c1e9d92687ece5bd5f
+to	DIOcoin.approve(address,uint256) 0x1898607fa6bd78f2c5b963b835e793cbd1db5a2b
+gas	3000000 gas
+transaction cost	46730 gas 
+input	0x095...a0000
+decoded input	{
+	"address delegate": "0x5701A8E4019a36e4FfF3823bFdd6a085EFfF83F9",
+	"uint256 numTokens": "100000000000000000"
+}
+decoded output	 - 
+logs	[
+	{
+		"from": "0x1898607fa6bd78f2c5b963b835e793cbd1db5a2b",
+		"topic": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+		"event": "Approval",
+		"args": {
+			"0": "0x75d1Dc70D8599C74c82f97C1e9D92687eCe5bd5F",
+			"1": "0x5701A8E4019a36e4FfF3823bFdd6a085EFfF83F9",
+			"2": "100000000000000000",
+			"owner": "0x75d1Dc70D8599C74c82f97C1e9D92687eCe5bd5F",
+			"spender": "0x5701A8E4019a36e4FfF3823bFdd6a085EFfF83F9"
+		}
+	}
+]
+raw logs	[
+  {
+    "address": "0x1898607fa6bd78f2c5b963b835e793cbd1db5a2b",
+    "blockHash": "0x10cb2654dfd07e55270f3d6a4ff56bbf39fd80189839d4fc5f1104f5aa0716b7",
+    "blockNumber": "0x18",
+    "data": "0x000000000000000000000000000000000000000000000000016345785d8a0000",
+    "logIndex": "0x0",
+    "removed": false,
+    "topics": [
+      "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+      "0x00000000000000000000000075d1dc70d8599c74c82f97c1e9d92687ece5bd5f",
+      "0x0000000000000000000000005701a8e4019a36e4fff3823bfdd6a085efff83f9"
+    ],
+    "transactionHash": "0xb6766cc96ac146b3250e9e3d17bd57530eeffb69820ca049dd6cecd0e1733c26",
+    "transactionIndex": "0x0"
+  }
+]
+
+transact to DIOcoin.transferFrom pending ... 
+
+[block:25 txIndex:-]
+from: 0x570...f83f9
+to: DIOcoin.transferFrom(address,address,uint256) 0x189...b5a2b
+value: 0 wei
+data: 0x23b...38000
+logs: 1
+hash: 0xaec...152c0
+status	0x1 Transaction mined and execution succeed
+transaction hash	0x083ea02316caa334fb22867bde6d237d0d598959f59d1c84075a97f6e62c4e1a
+block hash	0xaecf3ac4cddc41041ad934d14c1262174e0e08ecf0a1caead1b92f52116152c0
+block number	25
+from	0x5701a8e4019a36e4fff3823bfdd6a085efff83f9
+to	DIOcoin.transferFrom(address,address,uint256) 0x1898607fa6bd78f2c5b963b835e793cbd1db5a2b
+gas	3000000 gas
+transaction cost	59014 gas 
+input	0x23b...38000
+decoded input	{
+	"address owner": "0x75d1Dc70D8599C74c82f97C1e9D92687eCe5bd5F",
+	"address buyer": "0x43a1dD0624183d74b8185d0EDD2438b865943446",
+	"uint256 numTokens": "3000000000000000"
+}
+decoded output	 - 
+logs	[
+	{
+		"from": "0x1898607fa6bd78f2c5b963b835e793cbd1db5a2b",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x75d1Dc70D8599C74c82f97C1e9D92687eCe5bd5F",
+			"1": "0x43a1dD0624183d74b8185d0EDD2438b865943446",
+			"2": "3000000000000000",
+			"from": "0x75d1Dc70D8599C74c82f97C1e9D92687eCe5bd5F",
+			"to": "0x43a1dD0624183d74b8185d0EDD2438b865943446",
+			"value": "3000000000000000"
+		}
+	}
+]
+raw logs	[
+  {
+    "address": "0x1898607fa6bd78f2c5b963b835e793cbd1db5a2b",
+    "blockHash": "0xaecf3ac4cddc41041ad934d14c1262174e0e08ecf0a1caead1b92f52116152c0",
+    "blockNumber": "0x19",
+    "data": "0x000000000000000000000000000000000000000000000000000aa87bee538000",
+    "logIndex": "0x0",
+    "removed": false,
+    "topics": [
+      "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+      "0x00000000000000000000000075d1dc70d8599c74c82f97c1e9d92687ece5bd5f",
+      "0x00000000000000000000000043a1dd0624183d74b8185d0edd2438b865943446"
+    ],
+    "transactionHash": "0x083ea02316caa334fb22867bde6d237d0d598959f59d1c84075a97f6e62c4e1a",
+    "transactionIndex": "0x0"
+  }
+]
+
+call to DIOcoin.allowance errored: Error encoding arguments: Error: invalid address (argument="address", value="", code=INVALID_ARGUMENT, version=address/5.7.0) (argument=null, value="", code=INVALID_ARGUMENT, version=abi/5.7.0)
+
+call to DIOcoin.allowance
+
+call
+[call]
+from: 0x5701A8E4019a36e4FfF3823bFdd6a085EFfF83F9
+to: DIOcoin.allowance(address,address)
+data: 0xdd6...f83f9
+from	0x5701A8E4019a36e4FfF3823bFdd6a085EFfF83F9
+to	DIOcoin.allowance(address,address) 0x1898607FA6bd78f2C5b963B835E793Cbd1db5a2B
+input	0xdd6...f83f9
+output	000000000000000000000000188156252111541280
+decoded input	{
+	"address owner": "0x75d1Dc70D8599C74c82f97C1e9D92687eCe5bd5F",
+	"address delegate": "0x5701A8E4019a36e4FfF3823bFdd6a085EFfF83F9"
+}
+decoded output	{
+	"0": "uint256: 97000000000000000"
+}
+logs	[]
+raw logs	[]
+
+call to DIOcoin.balanceof
+
+call
+[call]
+from: 0x5701A8E4019a36e4FfF3823bFdd6a085EFfF83F9
+to: DIOcoin.balanceof(address)
+data: 0x3d6...43446
+from	0x5701A8E4019a36e4FfF3823bFdd6a085EFfF83F9
+to	DIOcoin.balanceof(address) 0x1898607FA6bd78f2C5b963B835E793Cbd1db5a2B
+input	0x3d6...43446
+output	000000000000000000000000010168123238831280
+decoded input	{
+	"address tokenOwner": "0x43a1dD0624183d74b8185d0EDD2438b865943446"
+}
+decoded output	{
+	"0": "uint256: 3000000000000000"
+}
+logs	[]
+raw logs	[]
+
+call to DIOcoin.balanceof
+
+call
+[call]
+from: 0x5701A8E4019a36e4FfF3823bFdd6a085EFfF83F9
+to: DIOcoin.balanceof(address)
+data: 0x3d6...f83f9
+from	0x5701A8E4019a36e4FfF3823bFdd6a085EFfF83F9
+to	DIOcoin.balanceof(address) 0x1898607FA6bd78f2C5b963B835E793Cbd1db5a2B
+input	0x3d6...f83f9
+output	00000000000000000000000001771621884619700
+decoded input	{
+	"address tokenOwner": "0x5701A8E4019a36e4FfF3823bFdd6a085EFfF83F9"
+}
+decoded output	{
+	"0": "uint256: 50000000000000000"
+}
+logs	[]
+raw logs	[]
+
+call to DIOcoin.balanceof
+
+call
+[call]
+from: 0x5701A8E4019a36e4FfF3823bFdd6a085EFfF83F9
+to: DIOcoin.balanceof(address)
+data: 0x3d6...5bd5f
+from	0x5701A8E4019a36e4FfF3823bFdd6a085EFfF83F9
+to	DIOcoin.balanceof(address) 0x1898607FA6bd78f2C5b963B835E793Cbd1db5a2B
+input	0x3d6...5bd5f
+output	000000000000000000000000138102152041082071280
+decoded input	{
+	"address tokenOwner": "0x75d1Dc70D8599C74c82f97C1e9D92687eCe5bd5F"
+}
+decoded output	{
+	"0": "uint256: 9947000000000000000"
+}
+logs	[]
+raw logs	[]
+>
+
+
